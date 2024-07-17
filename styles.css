@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #330101;
+    padding: 20px;
+}
+
+.product {
+    background-color:#330101;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(228, 156, 156, 0.1);
+    margin-bottom: 20px;
+    color: wheat;
+}
+
+.product h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Menambahkan wrapping pada gambar */
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.image-gallery img {
+    width: calc(30% - 10px);
+    /*Lebargambardenganmargin*/margin-bottom: 10px;
+    /*Jarakantaragambar*/border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+button {
+    background-color:wheat;
+    color: #330101;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(216, 177, 177, 0.991);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button:hover {
+    background-color: wheat;
+}
